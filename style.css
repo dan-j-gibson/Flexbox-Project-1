@@ -15,15 +15,21 @@ main h2, main h3, header h1 {
     font-family: 'Lobster', cursive;
 
 }
+h5 {
+  margin: 2px;
+}
 
 hr {
-  margin: 50px;
+  margin: 25px;
   background:#f78b59;
   height:3px; 
 }
 
 img {
-  width: 100%;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 250px
 }
 .portfolio-img {
  height: 300px;
@@ -51,6 +57,10 @@ main p, a {
  margin-bottom: 0em;
 }
 
+#contact .container, #portfolio h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
 
 /* --Header Styles-- */
 
@@ -118,6 +128,8 @@ li {
   .container {
     width: 90%;
     margin: auto;
+    border-style: dotted;
+    border-width: 2px;
   }
 
   .group {
